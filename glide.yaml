@@ -1,0 +1,11 @@
+package: uuid
+import:
+- package: github.com/astaxie/beego
+  version: ^1.11.1
+testImport:
+- package: github.com/smartystreets/goconvey
+  version: ^1.6.3
+  subpackages:
+  - convey
+- package: github.com/zheng-ji/goSnowFlake
+- package: github.com/liyuliang/utils
