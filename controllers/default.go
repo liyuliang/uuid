@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/liyuliang/utils"
+	"github.com/liyuliang/utils/format"
 	"uuid/services"
 )
 
